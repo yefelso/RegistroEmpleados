@@ -1,0 +1,103 @@
+﻿@model IEnumerable<Empleadox.Models.Tb_empleados>
+
+@{
+    ViewBag.Title = "Empleados";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    .container {
+        border: 2px solid fuchsia;
+        padding: 20px;
+    }
+
+    .table1 {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+        .table1 th,
+        .table1 td {
+            border: 2px solid fuchsia;
+            padding: 8px;
+        }
+
+    .table th {
+        background-color: #800080; /* Morado */
+        color: white;
+    }
+
+    .table tr:nth-child(even) {
+        background-color: #6495ED; /* Azul */
+    }
+
+    .table tr:nth-child(odd) {
+        background-color: #87CEEB; /* Otro tono de azul */
+    }
+</style>
+
+<div class="container">
+    <h2>EMPLEADOS</h2>
+
+    <p>
+        @Html.ActionLink("Create New", "Create")
+    </p>
+
+    <table class="table1">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.nombre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.apellido)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.correo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.cargo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.departamento)
+            </th>
+            
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.nombre)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.apellido)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.correo)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.cargo)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.departamento)
+                </td>
+                
+                <td>
+                    <div style="width: 170px;">
+                        <!-- Anchura fija del contenedor -->
+                        <div style="background-color: yellow; padding: 5px; display: inline-block; margin-right: 5px;">
+                            @Html.ActionLink("Edit", "Edit", new { id = item.id_empleado })
+                        </div>
+                        <div style="background-color: red; padding: 5px; display: inline-block; margin-right: 5px;">
+                            @Html.ActionLink("Details", "Details", new { id = item.id_empleado })
+                        </div>
+                        <div style="background-color: limegreen; padding: 5px; display: inline-block;">
+                            @Html.ActionLink("Delete", "Delete", new { id = item.id_empleado })
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        }
+    </table>
+</div>

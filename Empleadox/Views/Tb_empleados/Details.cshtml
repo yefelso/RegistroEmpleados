@@ -1,0 +1,122 @@
+﻿@model Empleadox.Models.Tb_empleados
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    .container {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    h2 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    dl {
+        margin-bottom: 20px;
+    }
+
+    dt {
+        font-weight: bold;
+    }
+
+    .back-link {
+        margin-top: 20px;
+    }
+
+    .Table {
+        background: yellow;
+        padding: 20px; /* Agrega espacio alrededor de la tabla */
+    }
+</style>
+
+<div class="container">
+    <h2>Details</h2>
+
+    <div class="Table">
+        <h4>Tb_empleados</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.nombre)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.nombre)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.apellido)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.apellido)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.correo)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.correo)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.cargo)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.cargo)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.departamento)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.departamento)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.fecha_contratacion)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.fecha_contratacion)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.salario)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.salario)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.rango)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.rango)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.curriculum)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.curriculum)
+            </dd>
+
+        </dl>
+    </div>
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { id = Model.id_empleado }) |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+</div>

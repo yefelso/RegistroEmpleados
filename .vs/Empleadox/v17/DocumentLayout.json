@@ -1,0 +1,136 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\USER\\source\\repos\\Empleadox\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D0F14E86-0241-43C6-8031-43A8C18C3935}|Empleadox\\Empleadox.csproj|C:\\Users\\USER\\source\\repos\\Empleadox\\empleadox\\views\\tb_empleados\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D0F14E86-0241-43C6-8031-43A8C18C3935}|Empleadox\\Empleadox.csproj|solutionrelative:empleadox\\views\\tb_empleados\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0F14E86-0241-43C6-8031-43A8C18C3935}|Empleadox\\Empleadox.csproj|c:\\users\\user\\source\\repos\\empleadox\\empleadox\\views\\tb_empleados\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D0F14E86-0241-43C6-8031-43A8C18C3935}|Empleadox\\Empleadox.csproj|solutionrelative:empleadox\\views\\tb_empleados\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0F14E86-0241-43C6-8031-43A8C18C3935}|Empleadox\\Empleadox.csproj|c:\\users\\user\\source\\repos\\empleadox\\empleadox\\controllers\\tb_empleadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0F14E86-0241-43C6-8031-43A8C18C3935}|Empleadox\\Empleadox.csproj|solutionrelative:empleadox\\controllers\\tb_empleadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0F14E86-0241-43C6-8031-43A8C18C3935}|Empleadox\\Empleadox.csproj|C:\\Users\\USER\\source\\repos\\Empleadox\\empleadox\\views\\tb_empleados\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D0F14E86-0241-43C6-8031-43A8C18C3935}|Empleadox\\Empleadox.csproj|solutionrelative:empleadox\\views\\tb_empleados\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0F14E86-0241-43C6-8031-43A8C18C3935}|Empleadox\\Empleadox.csproj|C:\\Users\\USER\\source\\repos\\Empleadox\\empleadox\\views\\tb_empleados\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D0F14E86-0241-43C6-8031-43A8C18C3935}|Empleadox\\Empleadox.csproj|solutionrelative:empleadox\\views\\tb_empleados\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0F14E86-0241-43C6-8031-43A8C18C3935}|Empleadox\\Empleadox.csproj|C:\\Users\\USER\\source\\repos\\Empleadox\\empleadox\\views\\tb_empleados\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D0F14E86-0241-43C6-8031-43A8C18C3935}|Empleadox\\Empleadox.csproj|solutionrelative:empleadox\\views\\tb_empleados\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0F14E86-0241-43C6-8031-43A8C18C3935}|Empleadox\\Empleadox.csproj|C:\\Users\\USER\\source\\repos\\Empleadox\\empleadox\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D0F14E86-0241-43C6-8031-43A8C18C3935}|Empleadox\\Empleadox.csproj|solutionrelative:empleadox\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Empleadox\\Empleadox\\Views\\Tb_empleados\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Empleadox\\Views\\Tb_empleados\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Empleadox\\Empleadox\\Views\\Tb_empleados\\Delete.cshtml",
+              "RelativeToolTip": "Empleadox\\Views\\Tb_empleados\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-30T21:53:36.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Tb_empleadosController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Empleadox\\Empleadox\\Controllers\\Tb_empleadosController.cs",
+              "RelativeDocumentMoniker": "Empleadox\\Controllers\\Tb_empleadosController.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Empleadox\\Empleadox\\Controllers\\Tb_empleadosController.cs",
+              "RelativeToolTip": "Empleadox\\Controllers\\Tb_empleadosController.cs",
+              "ViewState": "AQIAAFsAAAAAAAAAAAAAwH4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-30T21:03:46.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Empleadox\\Empleadox\\Views\\Tb_empleados\\Details.cshtml",
+              "RelativeDocumentMoniker": "Empleadox\\Views\\Tb_empleados\\Details.cshtml",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Empleadox\\Empleadox\\Views\\Tb_empleados\\Details.cshtml",
+              "RelativeToolTip": "Empleadox\\Views\\Tb_empleados\\Details.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAIwHoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-30T20:51:10.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Empleadox\\Empleadox\\Views\\Tb_empleados\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Empleadox\\Views\\Tb_empleados\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Empleadox\\Empleadox\\Views\\Tb_empleados\\Edit.cshtml",
+              "RelativeToolTip": "Empleadox\\Views\\Tb_empleados\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAKUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-30T20:36:28.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Empleadox\\Empleadox\\Views\\Tb_empleados\\Create.cshtml",
+              "RelativeDocumentMoniker": "Empleadox\\Views\\Tb_empleados\\Create.cshtml",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Empleadox\\Empleadox\\Views\\Tb_empleados\\Create.cshtml",
+              "RelativeToolTip": "Empleadox\\Views\\Tb_empleados\\Create.cshtml",
+              "ViewState": "AQIAAG0AAAAAAAAAAAAswIYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-30T19:23:58.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Empleadox\\Empleadox\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Empleadox\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Empleadox\\Empleadox\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Empleadox\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-30T19:22:33.086Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Empleadox\\Empleadox\\Views\\Tb_empleados\\Index.cshtml",
+              "RelativeDocumentMoniker": "Empleadox\\Views\\Tb_empleados\\Index.cshtml",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Empleadox\\Empleadox\\Views\\Tb_empleados\\Index.cshtml",
+              "RelativeToolTip": "Empleadox\\Views\\Tb_empleados\\Index.cshtml",
+              "ViewState": "AQIAADkAAAAAAAAAAAAQwFYAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-29T22:31:09.581Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

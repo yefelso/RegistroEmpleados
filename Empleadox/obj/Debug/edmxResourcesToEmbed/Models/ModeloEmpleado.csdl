@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="AdminDeEmpleadosModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Tb_empleados">
+    <Key>
+      <PropertyRef Name="id_empleado" />
+    </Key>
+    <Property Name="id_empleado" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="apellido" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="correo" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="cargo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="departamento" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="fecha_contratacion" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="salario" Type="Decimal" Precision="10" Scale="2" Nullable="false" />
+    <Property Name="rango" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="curriculum" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityContainer Name="AdminDeEmpleadosEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Tb_empleados" EntityType="Self.Tb_empleados" />
+  </EntityContainer>
+</Schema>
